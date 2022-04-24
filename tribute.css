@@ -1,0 +1,113 @@
+body{
+    margin: 10px;
+    
+    border-radius: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(t2.jpg);
+    background-size: 90%;
+    background-repeat:repeat;
+    background-position: top;
+    background-attachment: fixed;
+    text-align:center;
+    color:whitesmoke;
+    font-family: 'Covered By Your Grace', cursive;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+div{
+    margin: 50px;
+    text-align: Left;  
+}
+h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.style{
+    font-weight: 800;
+    color: gold;
+}
+q{
+    text-align: center;
+    color: red;
+    font-size: medium;
+}
+h3{
+    text-decoration: underline;
+}
+h4{
+    float: left;
+    position: absolute;
+}
+#box{
+    border: honeydew 2px solid;
+    position: absolute;
+    top: 6rem;
+    right:37rem;
+    left: 4rem;
+    bottom: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    background-color: black;
+    float: left;
+    overflow:scroll;
+    font-size: small;
+    scrollbar-width: none;
+}
+#box::-webkit-scrollbar
+    {
+        width: 0%;
+        height: 0%;
+    }
+
+.head{
+    list-style-type:square;
+}
+li{
+    list-style: none;
+}
+.pic{
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+footer
+{
+    margin-bottom: 2rem;
+}
+
+@media not all and (orientation : landscape)
+{
+    #box{
+        border: honeydew 2px solid;
+        position: absolute;
+        top: 2rem;
+        right:10rem;
+        left: 3rem;
+        bottom: 3rem;
+        margin-left: 5px;
+        margin-top: 50px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: black;
+        font-size: small;
+        float: left;
+        overflow:scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    #box::-webkit-scrollbar
+    {
+        width: 0%;
+        height: 0%;
+    }
+    
+}
